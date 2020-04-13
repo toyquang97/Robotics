@@ -74,3 +74,19 @@ void PWM_out(uint32_t freq, int16_t duty, TIM_HandleTypeDef *htim, uint32_t Chan
 		break;
 	}
 }
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+	COunt_overflow++;
+	max = (numOFPulse_servo1, 2,3,4)
+	if(max - count_overflow) -> reset
+	if(count = numOfPulse_servo1)
+	{
+	 CCR1 = 0;
+	}
+}
+CNT = ARR -> count_overflow ++
+
+void demxung()
+{
+
+}
